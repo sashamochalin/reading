@@ -682,6 +682,15 @@
 		}
 	},
 	"item" : {
+		"author"     : "Френк Герберт",
+		"collection" : {
+			"book" : {
+				"title" : "Дюна",
+				"year"  : "1965"
+			}
+		}
+	},
+	"item" : {
 		"author"     : "Эрнест Хэмингуэй",
 		"collection" : {
 			"book" : {
