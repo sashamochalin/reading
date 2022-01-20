@@ -285,6 +285,15 @@
 		}
 	},
 	"item" : {
+		"author"    : "Владимир Торин",
+		"collection" : {
+			"book" : {
+				"title" : "Амальгама",
+				"year"  : "2015"
+			}
+		}
+	},
+	"item" : {
 		"author"    : "Герман Гессе",
 		"collection" : {
 			"book" : {
