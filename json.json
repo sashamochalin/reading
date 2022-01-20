@@ -1,339 +1,343 @@
 {
-	"item" : {
+	"item" : [
+    {
 		"author"    : "Артур Голден",
-		"collection" : {
-			"title" : "Мемуары гейши",
-			"year"  : "1997"
-		}
+		"collection" : [{
+            "book" : [{
+                "title": "Мемуары гейши",
+                "year": "1997"
+            }]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Айн Ренд",
-		"collection" : {
-			"title" : "Атлант расправил плечи",
-			"year"  : "1957"
-		}
+        "collection": [{
+            "book": [{
+                "title": "Атлант расправил плечи",
+                "year": "1957"
+            }]
+        }]
 	},
-	"item" : {
+	{
 		"author"    : "Агата Кристи",
-		"collection" : {
-			"book" : {
+		"collection": [{
+			"book" : [{
 				"title" : "Десять негритят",
 				"year"  : "1939"
 			},
-			"book" : {
+			{
 				"title" : "Смерть в облаках",
 				"year"  : "1935"
-			}			
-		}
+			}]	
+		}]
 	},
-
-	"item" : {
+	{
 		"author"    : "Александр Беляев",
-		"collection" : {
+		"collection": [{
 			"book" : {
 				"title" : "Голова профессора Доуэля",
 				"year"  : "1925"
 			}
-		}
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Болеслав Прус",
-		"collection" : {
+		"collection" : [{
 			"book" : {
 				"title" : "Фараон",
 				"year"  : "1895"
 			}
-		}
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Бернард Шоу",
-		"collection" : {
+		"collection" : [{
 			"book" : {
 				"title" : "Пигмалион",
 				"year"  : "1913"
 			}
-		}
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Борис Акунин",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Левиафан",
 				"year"  : "1998"
 			},
-			"book" : {
+			{
 				"title" : "Смерть Ахиллеса",
 				"year"  : "1998"
 			},
-			"book" : {
+			{
 				"title" : "Коронация или последний из Романов",
 				"year"  : "2000"
 			},
-			"book" : {
+			{
 				"title" : "Любовница Смерти",
 				"year"  : "2001"
 			},
-			"book" : {
+			{
 				"title" : "Любовник Смерти",
 				"year"  : "2001"
 			},
-			"book" : {
+			{
 				"title" : "Нефритовые четки",
 				"year"  : "2007"
 			},
-			"book" : {
+			{
 				"title" : "Алмазная колесница",
 				"year"  : "2002"
 			},
-			"book" : {
+			{
 				"title" : "Чёрный город",
 				"year"  : "2012"
 			},
-			"book" : {
+			{
 				"title" : "Азазель",
 				"year"  : "2002"
 			},
-			"book" : {
+			{
 				"title" : "Не прощаюсь",
 				"year"  : "2018"
 			},
-			"book" : {
+			{
 				"title" : "Шпионский роман",
 				"year"  : "2005"
 			},
-			"book" : {
+			{
 				"title" : "Ореховый Будда",
 				"year"  : "2018"
 			},
-			"book" : {
+			{
 				"title" : "Седмица Трехглазого",
 				"year"  : "2017"
 			},
-			"book" : {
+			{
 				"title" : "Огненный перст",
 				"year"  : "2014"
 			},
-			"book" : {
+			{
 				"title" : "Бох и Шельма",
 				"year"  : "2014"
 			},
-			"book" : {
+			{
 				"title" : "Вдовий плат",
 				"year"  : "2016"
 			},
-			"book" : {
+			{
 				"title" : "Планета вода",
 				"year"  : "2015"
 			},
-			"book" : {
+			{
 				"title" : "Весь мир — театр",
 				"year"  : "2009"
 			},
-			"book" : {
+			{
 				"title" : "Доброключения и рассуждения Луция Катина",
 				"year"  : "2019"
 			},
-			"book" : {
+			{
 				"title" : "Мир и война",
 				"year"  : "2020"
 			},
-			"book" : {
+			{
 				"title" : "Просто Маса",
 				"year"  : "2020"
 			},
-			"book" : {
+			{
 				"title" : "Дорога в Китеж",
 				"year"  : "2021"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Василий Ян",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Чингиз хан",
 				"year"  : "1939"
 			},
-			"book" : {
+			{
 				"title" : "Хан Батый",
 				"year"  : "1942"
 			},
-			"book" : {
+			{
 				"title" : "К «Последнему морю»",
 				"year"  : "1955"
 			},
-			"book" : {
+			{
 				"title" : "Финикийский корабль",
 				"year"  : "1947"
 			},
-			"book" : {
+			{
 				"title" : "Огни на курганах",
 				"year"  : "1932"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Виктор Пелевин",
 		"collection" : {
-			"book" : {
+			"book" : [{
 				"title" : "Омон Ра",
 				"year"  : "1992"
 			},
-			"book" : {
+			{
 				"title" : "Числа",
 				"year"  : "2003"
 			},
-			"book" : {
+			{
 				"title" : "Поколение П",
 				"year"  : "1999"
 			},
-			"book" : {
+			{
 				"title" : "Жизнь насекомых",
 				"year"  : "1993"
 			},
-			"book" : {
+			{
 				"title" : "П5",
 				"year"  : "2008"
 			},
-			"book" : {
+			{
 				"title" : "Чапаев и Пустота",
 				"year"  : "1996"
 			},
-			"book" : {
+			{
 				"title" : "Проблемы верволка в средней полосе",
 				"year"  : "1991"
 			},
-			"book" : {
+			{
 				"title" : "Т.",
 				"year"  : "2009"
 			},
-			"book" : {
+			{
 				"title" : "Empire V",
 				"year"  : "2006"
 			},
-			"book" : {
+			{
 				"title" : "Священная книга оборотня",
 				"year"  : "2004"
-			}
+			}]
 		}
 	},
-	"item" : {
+	{
 		"author"     : "Валентин Пикуль",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Битва железных канцлеров",
 				"year"  : "1977"
 			},
-			"book" : {
+			{
 				"title" : "Слово и дело",
 				"year"  : "1975"
 			},
-			"book" : {
+			{
 				"title" : "Фаворит",
 				"year"  : "1984"
 			},
-			"book" : {
+			{
 				"title" : "Каторга",
 				"year"  : "1987"
 			},
-			"book" : {
+			{
 				"title" : "Честь имею",
 				"year"  : "1986"
 			},
-			"book" : {
+			{
 				"title" : "Пером и шпагой",
 				"year"  : "1972"
 			},
-			"book" : {
+			{
 				"title" : "Нечистая сила",
 				"year"  : "1979"
 			},
-			"book" : {
+			{
 				"title" : "Крейсера",
 				"year"  : "1985"
 			},
-			"book" : {
+			{
 				"title" : "Моонзунд",
 				"year"  : "1973"
 			},
-			"book" : {
+			{
 				"title" : "Баязет",
 				"year"  : "1961"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Владимир Медведев",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Заххок",
 				"year"  : "2017"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Владимир Набоков",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Машенька",
 				"year"  : "1926"
 			},
-			"book" : {
+			{
 				"title" : "Камера Обскура",
 				"year"  : "1932"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Владимир Торин",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Амальгама",
 				"year"  : "2015"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Герман Гессе",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Степной волк",
 				"year"  : "1927"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Григорий Данилевский",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Княжна Тараканова",
 				"year"  : "1882"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Гузель Яхина",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Дети мои",
 				"year"  : "2018"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Даниэл Киз",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Цветы для Элджернона",
 				"year"  : "1959"
 			},
-			"book" : {
+			{
 				"title" : "Таинственная история Билли Миллигана",
 				"year"  : "1981"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"    : "Джек Керуак",
 		"collection" : {
 			"book" : {
@@ -342,20 +346,20 @@
 			}
 		}
 	},
-	"item" : {
+	{
 		"author"     : "Джек Лондон",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Лютый зверь",
 				"year"  : "1913"
 			},
-			"book" : {
+			{
 				"title" : "Зов предков",
 				"year"  : "1903"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Джером Селенджер",
 		"collection" : {
 			"book" : {
@@ -365,375 +369,393 @@
 			}
 		}
 	},
-	"item" : {
+	{
 		"author"     : "Джоан Роулинг",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Гарри Поттер и философский камень",
 				"year"  : "1997"
 			},
-			"book" : {
+			{
 				"title" : "Гарри Поттер и тайная комната",
 				"year"  : "1998"
 			},
-			"book" : {
+			{
 				"title" : "Гарри Поттер и узник Азкабана",
 				"year"  : "1999"
 			},
-			"book" : {
+			{
 				"title" : "Гарри Поттер и Кубок огня",
 				"year"  : "2000"
 			},
-			"book" : {
+			{
 				"title" : "Гарри Поттер и Орден Феникса",
 				"year"  : "2003"
 			},
-			"book" : {
+			{
 				"title" : "Гарри Поттер и Принц-полукровка",
 				"year"  : "2005"
 			},
-			"book" : {
+			{
 				"title" : "Гарри Поттер и Дары Смерти",
 				"year"  : "2007"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Джон Стейнбек",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Гроздья гнева",
 				"year"  : "1939"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Джордж Оруэлл",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "1984",
 				"year"  : "1949"
 			},
-			"book" : {
+			{
 				"title" : "Скотный двор",
 				"year"  : "1945"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Иван Ефремов",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Таис Афинская",
 				"year"  : "1973"
 			},
-			"book" : {
+			{
 				"title" : "Лезвие бритвы",
 				"year"  : "1964"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Оливер Сакс",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Человек, который принял жену за шляпу"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Генри Лайон Олди",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Герой должен быть один",
 				"year"  : "1996"
 			},
-			"book" : {
+			{
 				"title" : "Внук Персея",
 				"year"  : "2020"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Франц Кафка",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Превращение",
 				"year"  : "1915"
 			},
-			"book" : {
-				"title" : "Певица Жозефина или мышиный народ"
-			}
-		}
+			{
+				"title" : "Певица Жозефина или мышиный народ",
+				"year"  : "1924"
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Карлос Кастанеда",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Разговоры с Доном Хуаном",
-				"year"  : ""
+				"year"  : "1968"
 			},
-			"book" : {
+			{
 				"title" : "Особая реальность",
-				"year"  : ""
+				"year"  : "1971"
 
 			},
-			"book" : {
+			{
 				"title" : "Путешествие в Икстлэн",
 				"year"  : "1972"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Константин Образцов",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Молот ведьм",
 				"year"  : "2016"
 			},
-			"book" : {
+			{
 				"title" : "Красные цепи",
 				"year"  : "2013"
 			},
-			"book" : {
+			{
 				"title" : "Культ",
 				"year"  : "2016"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Ирвин Уэлш",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Экстази",
 				"year"  : "1996"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Мартин Эмис",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Деньги",
 				"year"  : "1984"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Мэтью Грин",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Воспоминания моего воображаемого друга",
 				"year"  : "2012"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Татьяна Толстая",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Кысь",
 				"year"  : "2007"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Стефан Цвейг",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Амок",
 				"year"  : "1922"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Братья Стругацкие",
-		"collection" : {
-			"book" : {
-				"title" : "Трудно быть богом"
+		"collection" : [{
+			"book" : [{
+				"title" : "Трудно быть богом",
+				"year"  : "1964"
 			},
-			"book" : {
-				"title" : "Пикник на обочине"
+			{
+				"title" : "Пикник на обочине",
+				"year"  : "1972"
 			},
-			"book" : {
-				"title" : "Град обреченный"
-			}
-		}
+			{
+				"title" : "Град обреченный",
+				"year"  : "1972"
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Федор Достоевский",
-		"collection" : {
-			"book" : {
-				"title" : "Идиот"
+		"collection" : [{
+			"book" : [{
+				"title" : "Идиот",
+				"year"  : "1868"
 			},
-			"book" : {
-				"title" : "Униженные и оскорбленные"
+			{
+				"title" : "Униженные и оскорбленные",
+				"year"  : "1861"
 			},
-			"book" : {
-				"title" : "Бесы"
+			{
+				"title" : "Бесы",
+				"year"  : "1872"
 			},
-			"book" : {
-				"title" : "Игрок"
-			}
-		}
+			{
+				"title" : "Игрок",
+				"year"  : "1866"
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Лю Цысинь",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Задача трех тел",
 				"year"  : "2008"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Леопольд Фон Захер Мазох",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Венера в мехах",
 				"year"  : "1870"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Чак Паланик",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Удушье",
 				"year"  : "2001"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Роберт Ханлайн",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Неприятная профессия Джонатана Хога",
 				"year"  : "1942"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Роджер Желязны",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Остров мертвых",
 				"year"  : "1969"
 			},
-			"book" : {
+			{
 				"title" : "Имя мне легион",
 				"year"  : "1976"
 			},
-			"book" : {
+			{
 				"title" : "Девять принцев Амбера",
 				"year"  : "1970"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Николай Васильев",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Лик Чёрной Пальмиры",
 				"year"  : "2005"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Пола Хокинс",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Девушка в поезде",
 				"year"  : "2015"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Скот Фицжеральд",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Великий Гэтсби",
 				"year"  : "1925"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Сергей Лукьяненко",
-		"collection" : {
-			"book" : {
-				"title" : "Ночной дозор"
+		"collection" : [{
+			"book": [{
+				"title" : "Ночной дозор",
+				"year"  : "1998"
 			},
-			"book" : {
-				"title" : "Дневной дозор"
+			{
+				"title" : "Дневной дозор",
+				"year"  : "2000"
 			},
-			"book" : {
-				"title" : "Сумеречный дозор"
+			{
+				"title" : "Сумеречный дозор",
+				"year"  : "2004"
 			},
-			"book" : {
-				"title" : "Последний дозор"
+			{
+				"title" : "Последний дозор",
+				"year"  : "2006"
 			},
-			"book" : {
-				"title" : "Новый дозор"
+			{
+				"title" : "Новый дозор",
+				"year"  : "2012"
 			},
-			"book" : {
-				"title" : "Шестой дозор"
+			{
+				"title" : "Шестой дозор",
+				"year"  : "2015"
 			},
-			"book" : {
-				"title" : "Черновик"
+			{
+				"title" : "Черновик",
+				"year"  : "2006"
 			},
-			"book" : {
-				"title" : "Чистовик"
+			{
+				"title" : "Чистовик",
+				"year"  : "2007"
 			},
-			"book" : {
-				"title" : "Спектр"
+			{
+				"title" : "Спектр",
+				"year"  : "2002"
 			},
-			"book" : {
-				"title" : "Близится утро"
-			}
-		}
+			{
+				"title" : "Близится утро",
+				"year"  : "2003"
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Стивен Кинг",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Худеющий",
 				"year"  : "1984"
 			},
-			"book" : {
+			{
 				"title" : "22/11/63",
 				"year"  : "2011"
 			},
-			"book" : {
+			{
 				"title" : "Корпорация «Бросайте курить»"
 			},
-			"book" : {
+			{
 				"title" : "Оно»",
 				"year"  : "1986"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Терри Прачет",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Стража! Стража!",
 				"year"  : "1989"
 			},
-			"book" : {
+			{
 				"title" : "Безумная звезда",
 				"year"  : "1986"
 			},
-			"book" : {
+			{
 				"title" : "Добрые предзнаменования",
 				"year"  : "1990"
 			},
-			"book" : {
+			{
 				"title" : "Цвет волшебства",
 				"year"  : "1983"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Нил Гейман",
 		"collection" : {
 			"book" : {
@@ -742,43 +764,42 @@
 			}
 		}
 	},
-	"item" : {
+	{
 		"author"     : "Варлам Шаламов",
 		"collection" : {
 			"book" : {
 				"title" : "Колымские рассказы",
-				"year"  : "1978;
+				"year"  : "1978"
 			}
 		}
 	},
-	"item" : {
+	{
 		"author"     : "Френк Герберт",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Дюна",
 				"year"  : "1965"
 			},
-			"book" : {
+			{
 				"title" : "Мессия Дюны",
 				"year"  : "1969"
-			}
-		}
+			}]
+		}]
 	},
-	"item" : {
+	{
 		"author"     : "Эрнест Хэмингуэй",
-		"collection" : {
-			"book" : {
+		"collection" : [{
+			"book" : [{
 				"title" : "Старик и море",
 				"year"  : "1952"
 			},
-			"book" : {
+			{
 				"title" : "За рекой в тени деревьев",
 				"year"  : "1950"
 			},
-			"book" : {
+			{
 				"title" : "И восходит солнце (Фиеста)",
 				"year"  : "1926"
-			}
-		}
-	}
-}
+			}]
+		}]
+	}]}
