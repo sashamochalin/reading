@@ -1,26 +1,29 @@
 {
 	"item" : [
     {
-	"author"    : "Артур Голден",
-	"collection" : [{
-            "book" : [{
-                "title": "Мемуары гейши",
-                "year": "1997"
-            }]
-	}]
+		"author"    : "Артур Голден",
+		"country"    : "USA",
+		"collection" : [{
+		    "book" : [{
+			"title": "Мемуары гейши",
+			"year": "1997"
+		    }]
+		}]
 	},
 	{
-	"author"    : "Айн Ренд",
-        "collection": [{
-            "book": [{
-                "title": "Атлант расправил плечи",
-                "year": "1957"
-            }]
-        }]
+		"author"     : "Айн Ренд",
+		"country"    : "USA",
+        	"collection" : [{
+            		"book": [{
+                		"title" : "Атлант расправил плечи",
+                		"year"  : "1957"
+            		}]
+        	}]
 	},
 	{
-		"author"    : "Агата Кристи",
-		"collection": [{
+		"author"     : "Агата Кристи",
+		"country"    : "England",
+		"collection" : [{
 			"book" : [{
 				"title" : "Десять негритят",
 				"year"  : "1939"
@@ -32,8 +35,9 @@
 		}]
 	},
 	{
-		"author"    : "Александр Беляев",
-		"collection": [{
+		"author"     : "Александр Беляев",
+		"country"    : "Russia",
+		"collection" : [{
 			"book" : {
 				"title" : "Голова профессора Доуэля",
 				"year"  : "1925"
@@ -42,6 +46,7 @@
 	},
 	{
 		"author"     : "Болеслав Прус",
+		"country"    : "Poland",
 		"collection" : [{
 			"book" : {
 				"title" : "Фараон",
@@ -50,7 +55,8 @@
 		}]
 	},
 	{
-		"author"    : "Бернард Шоу",
+		"author"     : "Бернард Шоу",
+		"country"    : "England",
 		"collection" : [{
 			"book" : {
 				"title" : "Пигмалион",
@@ -60,6 +66,7 @@
 	},
 	{
 		"author"     : "Борис Акунин",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Левиафан",
@@ -153,6 +160,7 @@
 	},
 	{
 		"author"     : "Василий Ян",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Чингиз хан",
@@ -178,6 +186,7 @@
 	},
 	{
 		"author"     : "Виктор Пелевин",
+		"country"    : "Russia",
 		"collection" : {
 			"book" : [{
 				"title" : "Омон Ра",
@@ -223,6 +232,7 @@
 	},
 	{
 		"author"     : "Валентин Пикуль",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Битва железных канцлеров",
@@ -267,7 +277,8 @@
 		}]
 	},
 	{
-		"author"    : "Владимир Медведев",
+		"author"     : "Владимир Медведев",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Заххок",
@@ -276,7 +287,8 @@
 		}]
 	},
 	{
-		"author"    : "Владимир Набоков",
+		"author"     : "Владимир Набоков",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Машенька",
@@ -289,7 +301,8 @@
 		}]
 	},
 	{
-		"author"    : "Владимир Торин",
+		"author"     : "Владимир Торин",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Амальгама",
@@ -302,7 +315,8 @@
 		}]
 	},
 	{
-		"author"    : "Герман Гессе",
+		"author"     : "Герман Гессе",
+		"country"    : "Germany",
 		"collection" : [{
 			"book" : [{
 				"title" : "Степной волк",
@@ -311,7 +325,8 @@
 		}]
 	},
 	{
-		"author"    : "Григорий Данилевский",
+		"author"     : "Григорий Данилевский",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Княжна Тараканова",
@@ -320,7 +335,8 @@
 		}]
 	},
 	{
-		"author"    : "Гузель Яхина",
+		"author"     : "Гузель Яхина",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Дети мои",
@@ -329,7 +345,8 @@
 		}]
 	},
 	{
-		"author"    : "Даниэл Киз",
+		"author"     : "Даниэл Киз",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Цветы для Элджернона",
@@ -342,7 +359,8 @@
 		}]
 	},
 	{
-		"author"    : "Джек Керуак",
+		"author"     : "Джек Керуак",
+		"country"    : "USA",
 		"collection" : {
 			"book" : {
 				"title" : "В дороге",
@@ -352,6 +370,7 @@
 	},
 	{
 		"author"     : "Джек Лондон",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Лютый зверь",
@@ -365,6 +384,7 @@
 	},
 	{
 		"author"     : "Джером Селенджер",
+		"country"    : "USA",
 		"collection" : {
 			"book" : {
 				"title" : "Над пропастью во ржи",
@@ -375,6 +395,7 @@
 	},
 	{
 		"author"     : "Джоан Роулинг",
+		"country"    : "England",
 		"collection" : [{
 			"book" : [{
 				"title" : "Гарри Поттер и философский камень",
@@ -408,6 +429,7 @@
 	},
 	{
 		"author"     : "Джон Стейнбек",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Гроздья гнева",
@@ -417,6 +439,7 @@
 	},
 	{
 		"author"     : "Джордж Оруэлл",
+		"country"    : "England",
 		"collection" : [{
 			"book" : [{
 				"title" : "1984",
@@ -430,6 +453,7 @@
 	},
 	{
 		"author"     : "Иван Ефремов",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Таис Афинская",
@@ -443,6 +467,7 @@
 	},
 	{
 		"author"     : "Оливер Сакс",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Человек, который принял жену за шляпу"
@@ -451,6 +476,7 @@
 	},
 	{
 		"author"     : "Генри Лайон Олди",
+		"country"    : "Ukraine",
 		"collection" : [{
 			"book" : [{
 				"title" : "Герой должен быть один",
@@ -464,6 +490,7 @@
 	},
 	{
 		"author"     : "Франц Кафка",
+		"country"    : "Austria",
 		"collection" : [{
 			"book" : [{
 				"title" : "Превращение",
@@ -477,6 +504,7 @@
 	},
 	{
 		"author"     : "Карлос Кастанеда",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Разговоры с Доном Хуаном",
@@ -495,6 +523,7 @@
 	},
 	{
 		"author"     : "Константин Образцов",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Молот ведьм",
@@ -512,6 +541,7 @@
 	},
 	{
 		"author"     : "Ирвин Уэлш",
+		"country"    : "Ireland",
 		"collection" : [{
 			"book" : [{
 				"title" : "Экстази",
@@ -521,6 +551,7 @@
 	},
 	{
 		"author"     : "Мартин Эмис",
+		"country"    : "England",
 		"collection" : [{
 			"book" : [{
 				"title" : "Деньги",
@@ -529,7 +560,18 @@
 		}]
 	},
 	{
+		"author"     : "Майк Омер",
+		"country"    : "Israel",
+		"collection" : [{
+			"book" : [{
+				"title" : "Как ты умрешь",
+				"year"  : "2021"
+			}]
+		}]
+	},
+	{
 		"author"     : "Мэтью Грин",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Воспоминания моего воображаемого друга",
@@ -539,6 +581,7 @@
 	},
 	{
 		"author"     : "Татьяна Толстая",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Кысь",
@@ -548,6 +591,7 @@
 	},
 	{
 		"author"     : "Стефан Цвейг",
+		"country"    : "Austria",
 		"collection" : [{
 			"book" : [{
 				"title" : "Амок",
@@ -557,6 +601,7 @@
 	},
 	{
 		"author"     : "Братья Стругацкие",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Трудно быть богом",
@@ -574,6 +619,7 @@
 	},
 	{
 		"author"     : "Федор Достоевский",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Идиот",
@@ -599,6 +645,7 @@
 	},
 	{
 		"author"     : "Лю Цысинь",
+		"country"    : "China",
 		"collection" : [{
 			"book" : [{
 				"title" : "Задача трех тел",
@@ -608,6 +655,7 @@
 	},
 	{
 		"author"     : "Леопольд Фон Захер Мазох",
+		"country"    : "Austria",
 		"collection" : [{
 			"book" : [{
 				"title" : "Венера в мехах",
@@ -617,6 +665,7 @@
 	},
 	{
 		"author"     : "Чак Паланик",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Удушье",
@@ -626,6 +675,7 @@
 	},
 	{
 		"author"     : "Роберт Ханлайн",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Неприятная профессия Джонатана Хога",
@@ -635,6 +685,7 @@
 	},
 	{
 		"author"     : "Роджер Желязны",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Остров мертвых",
@@ -652,6 +703,7 @@
 	},
 	{
 		"author"     : "Николай Васильев",
+		"country"    : "Russia",
 		"collection" : [{
 			"book" : [{
 				"title" : "Лик Чёрной Пальмиры",
@@ -661,6 +713,7 @@
 	},
 	{
 		"author"     : "Пола Хокинс",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Девушка в поезде",
@@ -670,6 +723,7 @@
 	},
 	{
 		"author"     : "Скот Фицжеральд",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Великий Гэтсби",
@@ -679,6 +733,7 @@
 	},
 	{
 		"author"     : "Сергей Лукьяненко",
+		"country"    : "Russia",
 		"collection" : [{
 			"book": [{
 				"title" : "Ночной дозор",
@@ -724,6 +779,7 @@
 	},
 	{
 		"author"     : "Стивен Кинг",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Худеющий",
@@ -744,6 +800,7 @@
 	},
 	{
 		"author"     : "Терри Прачет",
+		"country"    : "England",
 		"collection" : [{
 			"book" : [{
 				"title" : "Стража! Стража!",
@@ -765,6 +822,7 @@
 	},
 	{
 		"author"     : "Нил Гейман",
+		"country"    : "USA",
 		"collection" : {
 			"book" : {
 				"title" : "Американские боги",
@@ -774,6 +832,7 @@
 	},
 	{
 		"author"     : "Варлам Шаламов",
+		"country"    : "Russia",
 		"collection" : {
 			"book" : {
 				"title" : "Колымские рассказы",
@@ -783,6 +842,7 @@
 	},
 	{
 		"author"     : "Френк Герберт",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Дюна",
@@ -796,6 +856,7 @@
 	},
 	{
 		"author"     : "Эрнест Хэмингуэй",
+		"country"    : "USA",
 		"collection" : [{
 			"book" : [{
 				"title" : "Старик и море",
