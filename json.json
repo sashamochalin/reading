@@ -540,6 +540,16 @@
 		}]
 	},
 	{
+		"author"     : "Ильф и Петров",
+		"country"    : "Russia",
+		"collection" : [{
+			"book" : [{
+				"title" : "Золотой теленок",
+				"year"  : "1931"
+			}]
+		}]
+	},
+	{
 		"author"     : "Ирвин Уэлш",
 		"country"    : "Ireland",
 		"collection" : [{
