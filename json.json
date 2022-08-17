@@ -869,6 +869,16 @@
 		}]
 	},
 	{
+		"author"     : "Эндрю Майкл Хёрли",
+		"country"    : "England",
+		"collection" : [{
+			"book" : [{
+				"title" : "День Дьявола",
+				"year"  : "2017"
+			}]
+		}]
+	},
+	{
 		"author"     : "Эрнест Хэмингуэй",
 		"country"    : "USA",
 		"collection" : [{
