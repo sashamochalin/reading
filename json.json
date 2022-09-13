@@ -45,6 +45,16 @@
 		}]
 	},
 	{
+		"author"     : "Алексей Волков",
+		"country"    : "Russia",
+		"collection" : [{
+			"book" : {
+				"title" : "Майор Гром",
+				"year"  : "2022"
+			}
+		}]
+	},
+	{
 		"author"     : "Болеслав Прус",
 		"country"    : "Poland",
 		"collection" : [{
