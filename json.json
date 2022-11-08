@@ -488,7 +488,17 @@
 				"year"  : "2022"
 			}]
 		}]
-	},		
+	},
+	{
+		"author"     : "Олдос Хаксли",
+		"country"    : "England",
+		"collection" : [{
+			"book" : [{
+				"title" : "О дивный новый мир",
+				"year"  : "1932"
+			}]
+		}]
+	},
 	{
 		"author"     : "Оливер Сакс",
 		"country"    : "USA",
