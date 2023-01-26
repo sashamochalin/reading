@@ -466,6 +466,16 @@
 		}]
 	},
 	{
+		"author"     : "Делия Оуэнс",
+		"country"    : "USA",
+		"collection" : [{
+			"book" : [{
+				"title" : "Там, где раки поют",
+				"year"  : "2018"
+			}]
+		}]
+	},
+	{
 		"author"     : "Иван Ефремов",
 		"country"    : "Russia",
 		"collection" : [{
