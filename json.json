@@ -595,6 +595,16 @@
 		}]
 	},
 	{
+		"author"     : "Ислам Ханипаев",
+		"country"    : "Russia",
+		"collection" : [{
+			"book" : [{
+				"title" : "Холодные глаза",
+				"year"  : "2022"
+			}]
+		}]
+	},
+	{
 		"author"     : "Ирвин Уэлш",
 		"country"    : "Ireland",
 		"collection" : [{
