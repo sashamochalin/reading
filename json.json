@@ -55,6 +55,16 @@
 		}]
 	},
 	{
+		"author"     : "Андрей Подшибякин",
+		"country"    : "Russia",
+		"collection" : [{
+			"book" : {
+				"title" : "Последний день лета",
+				"year"  : "2023"
+			}
+		}]
+	},
+	{
 		"author"     : "Болеслав Прус",
 		"country"    : "Poland",
 		"collection" : [{
