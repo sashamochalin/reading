@@ -749,6 +749,16 @@
 		}]
 	},
 	{
+		"author"     : "Рагим Джафаров",
+		"country"    : "Russia",
+		"collection" : [{
+			"book" : [{
+				"title" : "Сато",
+				"year"  : "2020"
+			}]
+		}]
+	},
+	{
 		"author"     : "Роберт Ханлайн",
 		"country"    : "USA",
 		"collection" : [{
