@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'PT Sans', Arial, sans-serif;
+	width: 100%;
+	min-width: 320px;
+	min-height: 100%;
+	position: relative;
+	display: block;
+	background: transparent;
+	color: #000;
+	font-variation-settings: "opsz" 16;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+span, div, a {
+	box-sizing: border-box;
+}
+.reading {
+	position: relative;
+}
+
+.title {
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 25px;
+
+	&:after {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		background-image: url(../public/i/flags@2x.png);
+		background-repeat: no-repeat;
+		background-size: 16px 500px;
+		width: 16px;
+		height: 9px;
+	}
+	
+	&[data-country="russia"]:after {
+		background-position: left -9px;
+	}
+	&[data-country="germany"]:after {
+		background-position: left -18px;
+	}
+	&[data-country="italy"]:after {
+		background-position: left -27px;
+	}
+	&[data-country="usa"]:after {
+		background-position: left -90px;
+	}
+	&[data-country="austria"]:after {
+		background-position: left -36px;
+	}
+	&[data-country="france"]:after {
+		background-position: left -99px;
+	}
+	&[data-country="china"]:after {
+		background-position: left -189px;
+	}
+	&[data-country="england"]:after {
+		background-position: left -279px;
+	}
+	&[data-country="ukraine"]:after {
+		background-position: left -144px;
+	}
+	&[data-country="poland"]:after {
+		background-position: left -216px;
+	}
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 680px;
+	margin: 0 70px;
+
+}
+
+.i {
+	width: 100%;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+
+}
+
+.book {
+	position: relative;
+	padding-left: 28px;
+}
+
+.numb {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+	color: #777;
+}
+
+.collection {
+	color: #333;
+	padding-left: 10px;
+}
+
+.year {
+	font-size: 75%;
+	color: #777;
+	display: inline;
+}
+
+.info {
+	display: flex;
+	padding: 10px 70px;
+	margin-bottom: 25px;
+	background-color: #000;
+	color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+	& > div {
+		width: 50%;
+	}
+}

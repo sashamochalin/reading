@@ -1,94 +1,91 @@
 {
 	"item" : [
-    {
+	{
 		"author"    : "Артур Голден",
 		"country"    : "USA",
-		"collection" : [{
-		    "book" : [{
+		"collection" : [
+			{
 			"title": "Мемуары гейши",
 			"year": "1997"
-		    }]
-		}]
+			}]
 	},
 	{
 		"author"     : "Айн Ренд",
 		"country"    : "USA",
-        	"collection" : [{
-            		"book": [{
-                		"title" : "Атлант расправил плечи",
-                		"year"  : "1957"
-            		}]
+    	"collection" : [
+        	{
+            	"title" : "Атлант расправил плечи",
+            	"year"  : "1957"
         	}]
 	},
 	{
 		"author"     : "Агата Кристи",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Десять негритят",
 				"year"  : "1939"
 			},
 			{
 				"title" : "Смерть в облаках",
 				"year"  : "1935"
-			}]	
-		}]
+			}]
 	},
 	{
 		"author"     : "Александр Беляев",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Голова профессора Доуэля",
 				"year"  : "1925"
 			}
-		}]
+		]
 	},
 	{
 		"author"     : "Алексей Волков",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Майор Гром",
 				"year"  : "2021"
 			}
-		}]
+		]
 	},
 	{
 		"author"     : "Андрей Подшибякин",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Последний день лета",
 				"year"  : "2023"
 			}
-		}]
+		]
 	},
 	{
 		"author"     : "Болеслав Прус",
 		"country"    : "Poland",
-		"collection" : [{
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Фараон",
 				"year"  : "1895"
 			}
-		}]
+		]
 	},
 	{
 		"author"     : "Бернард Шоу",
 		"country"    : "England",
-		"collection" : [{
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Пигмалион",
 				"year"  : "1913"
 			}
-		}]
+		]
 	},
 	{
 		"author"     : "Борис Акунин",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Левиафан",
 				"year"  : "1998"
 			},
@@ -180,13 +177,12 @@
 				"title" : "Он уходя спросил",
 				"year"  : "2022"
 			}]
-		}]
 	},
 	{
 		"author"     : "Василий Ян",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Чингиз хан",
 				"year"  : "1939"
 			},
@@ -206,13 +202,12 @@
 				"title" : "Огни на курганах",
 				"year"  : "1932"
 			}]
-		}]
 	},
 	{
 		"author"     : "Виктор Пелевин",
 		"country"    : "Russia",
-		"collection" : {
-			"book" : [{
+		"collection"       : [
+			{
 				"title" : "Омон Ра",
 				"year"  : "1992"
 			},
@@ -252,13 +247,12 @@
 				"title" : "Священная книга оборотня",
 				"year"  : "2004"
 			}]
-		}
 	},
 	{
 		"author"     : "Валентин Пикуль",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Битва железных канцлеров",
 				"year"  : "1977"
 			},
@@ -298,23 +292,21 @@
 				"title" : "Баязет",
 				"year"  : "1961"
 			}]
-		}]
 	},
 	{
 		"author"     : "Владимир Медведев",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Заххок",
 				"year"  : "2017"
 			}]
-		}]
 	},
 	{
 		"author"     : "Владимир Набоков",
-		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"country"    : "USA",
+		"collection" : [
+			{
 				"title" : "Машенька",
 				"year"  : "1926"
 			},
@@ -322,13 +314,12 @@
 				"title" : "Камера Обскура",
 				"year"  : "1932"
 			}]
-		}]
 	},
 	{
 		"author"     : "Владимир Торин",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Амальгама",
 				"year"  : "2015"
 			},{
@@ -336,43 +327,39 @@
 				"year"  : "2017"
 
 			}]
-		}]
 	},
 	{
 		"author"     : "Герман Гессе",
 		"country"    : "Germany",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Степной волк",
 				"year"  : "1927"
 			}]
-		}]
 	},
 	{
 		"author"     : "Григорий Данилевский",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Княжна Тараканова",
 				"year"  : "1882"
 			}]
-		}]
 	},
 	{
 		"author"     : "Гузель Яхина",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Дети мои",
 				"year"  : "2018"
 			}]
-		}]
 	},
 	{
 		"author"     : "Даниэл Киз",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Цветы для Элджернона",
 				"year"  : "1959"
 			},
@@ -380,23 +367,22 @@
 				"title" : "Таинственная история Билли Миллигана",
 				"year"  : "1981"
 			}]
-		}]
 	},
 	{
 		"author"     : "Джек Керуак",
 		"country"    : "USA",
-		"collection" : {
-			"book" : {
+		"collection" : [
+			{
 				"title" : "В дороге",
 				"year"  : "1951"
 			}
-		}
+		]
 	},
 	{
 		"author"     : "Джек Лондон",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Лютый зверь",
 				"year"  : "1913"
 			},
@@ -404,24 +390,23 @@
 				"title" : "Зов предков",
 				"year"  : "1903"
 			}]
-		}]
 	},
 	{
 		"author"     : "Джером Селенджер",
 		"country"    : "USA",
-		"collection" : {
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Над пропастью во ржи",
 				"year"  : "1951"
 
 			}
-		}
+		]
 	},
 	{
 		"author"     : "Джоан Роулинг",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Гарри Поттер и философский камень",
 				"year"  : "1997"
 			},
@@ -449,23 +434,21 @@
 				"title" : "Гарри Поттер и Дары Смерти",
 				"year"  : "2007"
 			}]
-		}]
 	},
 	{
 		"author"     : "Джон Стейнбек",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Гроздья гнева",
 				"year"  : "1939"
 			}]
-		}]
 	},
 	{
 		"author"     : "Джордж Оруэлл",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "1984",
 				"year"  : "1949"
 			},
@@ -473,23 +456,21 @@
 				"title" : "Скотный двор",
 				"year"  : "1945"
 			}]
-		}]
 	},
 	{
 		"author"     : "Делия Оуэнс",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Там, где раки поют",
 				"year"  : "2018"
 			}]
-		}]
 	},
 	{
 		"author"     : "Иван Ефремов",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Таис Афинская",
 				"year"  : "1973"
 			},
@@ -497,43 +478,39 @@
 				"title" : "Лезвие бритвы",
 				"year"  : "1964"
 			}]
-		}]
 	},
 	{
 		"author"     : "Кирилл Кутузов",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Разумовский",
 				"year"  : "2022"
 			}]
-		}]
 	},
 	{
 		"author"     : "Олдос Хаксли",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "О дивный новый мир",
 				"year"  : "1932"
 			}]
-		}]
 	},
 	{
 		"author"     : "Оливер Сакс",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Человек, который принял жену за шляпу",
 				"year"  : "1985"
 			}]
-		}]
 	},
 	{
 		"author"     : "Генри Лайон Олди",
 		"country"    : "Ukraine",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Герой должен быть один",
 				"year"  : "1996"
 			},
@@ -541,13 +518,12 @@
 				"title" : "Внук Персея",
 				"year"  : "2020"
 			}]
-		}]
 	},
 	{
 		"author"     : "Франц Кафка",
 		"country"    : "Austria",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Превращение",
 				"year"  : "1915"
 			},
@@ -555,13 +531,12 @@
 				"title" : "Певица Жозефина или мышиный народ",
 				"year"  : "1924"
 			}]
-		}]
 	},
 	{
 		"author"     : "Карлос Кастанеда",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Разговоры с Доном Хуаном",
 				"year"  : "1968"
 			},
@@ -574,13 +549,12 @@
 				"title" : "Путешествие в Икстлэн",
 				"year"  : "1972"
 			}]
-		}]
 	},
 	{
 		"author"     : "Константин Образцов",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Молот ведьм",
 				"year"  : "2016"
 			},
@@ -592,93 +566,84 @@
 				"title" : "Культ",
 				"year"  : "2016"
 			}]
-		}]
 	},
 	{
 		"author"     : "Ильф и Петров",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Золотой теленок",
 				"year"  : "1931"
 			}]
-		}]
 	},
 	{
 		"author"     : "Ислам Ханипаев",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Холодные глаза",
 				"year"  : "2022"
 			}]
-		}]
 	},
 	{
 		"author"     : "Ирвин Уэлш",
 		"country"    : "Ireland",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Экстази",
 				"year"  : "1996"
 			}]
-		}]
 	},
 	{
 		"author"     : "Мартин Эмис",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Деньги",
 				"year"  : "1984"
 			}]
-		}]
 	},
 	{
 		"author"     : "Майк Омер",
 		"country"    : "Israel",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Как ты умрешь",
 				"year"  : "2021"
 			}]
-		}]
 	},
 	{
 		"author"     : "Мэтью Грин",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Воспоминания моего воображаемого друга",
 				"year"  : "2012"
 			}]
-		}]
 	},
 	{
 		"author"     : "Татьяна Толстая",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Кысь",
 				"year"  : "2007"
 			}]
-		}]
 	},
 	{
 		"author"     : "Стефан Цвейг",
 		"country"    : "Austria",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Амок",
 				"year"  : "1922"
 			}]
-		}]
 	},
 	{
 		"author"     : "Братья Стругацкие",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Трудно быть богом",
 				"year"  : "1964"
 			},
@@ -690,13 +655,12 @@
 				"title" : "Град обреченный",
 				"year"  : "1972"
 			}]
-		}]
 	},
 	{
 		"author"     : "Федор Достоевский",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Идиот",
 				"year"  : "1868"
 			},
@@ -716,63 +680,57 @@
 				"title" : "Преступление и наказание",
 				"year"  : "1866"
 			}]
-		}]
 	},
 	{
 		"author"     : "Лю Цысинь",
 		"country"    : "China",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Задача трех тел",
 				"year"  : "2008"
 			}]
-		}]
 	},
 	{
 		"author"     : "Леопольд Фон Захер Мазох",
 		"country"    : "Austria",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Венера в мехах",
 				"year"  : "1870"
 			}]
-		}]
 	},
 	{
 		"author"     : "Чак Паланик",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Удушье",
 				"year"  : "2001"
 			}]
-		}]
 	},
 	{
 		"author"     : "Рагим Джафаров",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Сато",
 				"year"  : "2020"
 			}]
-		}]
 	},
 	{
 		"author"     : "Роберт Ханлайн",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Неприятная профессия Джонатана Хога",
 				"year"  : "1942"
 			}]
-		}]
 	},
 	{
 		"author"     : "Роджер Желязны",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Остров мертвых",
 				"year"  : "1969"
 			},
@@ -784,43 +742,39 @@
 				"title" : "Девять принцев Амбера",
 				"year"  : "1970"
 			}]
-		}]
 	},
 	{
 		"author"     : "Николай Васильев",
 		"country"    : "Russia",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Лик Чёрной Пальмиры",
 				"year"  : "2005"
 			}]
-		}]
 	},
 	{
 		"author"     : "Пола Хокинс",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Девушка в поезде",
 				"year"  : "2015"
 			}]
-		}]
 	},
 	{
 		"author"     : "Скот Фицжеральд",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Великий Гэтсби",
 				"year"  : "1925"
 			}]
-		}]
 	},
 	{
 		"author"     : "Сергей Лукьяненко",
 		"country"    : "Russia",
-		"collection" : [{
-			"book": [{
+		"collection" : [
+			{
 				"title" : "Ночной дозор",
 				"year"  : "1998"
 			},
@@ -872,13 +826,12 @@
 				"title" : "КайноZой",
 				"year"  : "2018"
 			}]
-		}]
 	},
 	{
 		"author"     : "Стивен Кинг",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Худеющий",
 				"year"  : "1984"
 			},
@@ -894,13 +847,12 @@
 				"title" : "Оно»",
 				"year"  : "1986"
 			}]
-		}]
 	},
 	{
 		"author"     : "Терри Прачет",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Стража! Стража!",
 				"year"  : "1989"
 			},
@@ -916,57 +868,56 @@
 				"title" : "Цвет волшебства",
 				"year"  : "1983"
 			}]
-		}]
 	},
 	{
 		"author"     : "Нил Гейман",
 		"country"    : "USA",
-		"collection" : {
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Американские боги",
 				"year"  : "2001"
 			}
-		}
+		]
 	},
 	{
 		"author"     : "Варлам Шаламов",
 		"country"    : "Russia",
-		"collection" : {
-			"book" : {
+		"collection" : [
+			{
 				"title" : "Колымские рассказы",
 				"year"  : "1978"
 			}
-		}
+		]
 	},
 	{
 		"author"     : "Френк Герберт",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Дюна",
 				"year"  : "1965"
 			},
 			{
 				"title" : "Мессия Дюны",
 				"year"  : "1969"
-			}]
-		}]
+			}
+		]
 	},
 	{
 		"author"     : "Эндрю Майкл Хёрли",
 		"country"    : "England",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "День Дьявола",
 				"year"  : "2017"
-			}]
-		}]
+			}
+		]
 	},
 	{
 		"author"     : "Эрнест Хэмингуэй",
 		"country"    : "USA",
-		"collection" : [{
-			"book" : [{
+		"collection" : [
+			{
 				"title" : "Старик и море",
 				"year"  : "1952"
 			},
@@ -977,6 +928,7 @@
 			{
 				"title" : "И восходит солнце (Фиеста)",
 				"year"  : "1926"
-			}]
-		}]
-	}]}
+			}
+		]
+	}
+]}
