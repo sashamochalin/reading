@@ -34,16 +34,16 @@ const Info = ( props ) => {
 
         // console.log( rangeYears );
 
-        var unique = [...new Set(rangeYears)];
-        var brr = unique.map(i => [i, rangeYears.filter(j => i === j).length])
-
-        console.log(brr);
-
         return [Math.min(...rangeYears), Math.max(...rangeYears)];
     }
 
-    const graphYears = () => {
+    const graphYears = ( data ) => {
+        var unique = [...new Set(data)];
+        var graph = unique.map(i => [i, data.filter(j => i === j).length])
 
+        console.log( graph );
+
+        return graph;
     }
 
 	return (
