@@ -26,28 +26,43 @@ const Info = ( props ) => {
         const collection = items.map((a) => a.collection);
 
         const rangeYears = collection.reduce( (prev, item) => {
-
             item.forEach(e => {
                 prev.push( e.year )
             });
-
             return prev;
         }, []);
 
-        console.log( rangeYears );
+        // console.log( rangeYears );
+
+        var unique = [...new Set(rangeYears)];
+        var brr = unique.map(i => [i, rangeYears.filter(j => i === j).length])
+
+        console.log(brr);
 
         return [Math.min(...rangeYears), Math.max(...rangeYears)];
     }
 
+    const graphYears = () => {
+
+    }
+
 	return (
 		<div className="info">
-            <div>
-                <div>Авторов: {items.length}</div>
-                <div>Книг: {booksCounter()}</div>
-                <div>Самый читаемый: {mostReadable()}</div>
+            <div className="info__row">
+                <div>
+                    <div>Авторов: {items.length}</div>
+                    <div>Книг: {booksCounter()}</div>
+                    <div>Самый читаемый: {mostReadable()}</div>
+                </div>
+                <div>
+                    <div>По годам: {byYears()[0]} - {byYears()[1]} </div>
+                </div>
             </div>
-            <div>
-                <div>По годам: {byYears()[0]} - {byYears()[1]} </div>
+            <div className="graph">
+                <div className="graph__item">
+                    <span className="graph__item-count">3</span>
+                    <span className="graph__item-year">1857</span>
+                </div>
             </div>
 		</div>
 	);
