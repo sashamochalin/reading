@@ -599,6 +599,16 @@
 		}]
 	},
 	{
+		"author"     : "Кормак Маккарти",
+		"country"    : "USA",
+		"collection" : [{
+			"book" : [{
+				"title" : "Дорога",
+				"year"  : "2006"
+			}]
+		}]
+	},
+	{
 		"author"     : "Ильф и Петров",
 		"country"    : "Russia",
 		"collection" : [{
