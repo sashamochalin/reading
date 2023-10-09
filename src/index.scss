@@ -95,7 +95,6 @@ span, div, a {
 	margin-bottom: 25px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #eee;
-
 }
 
 .book {
@@ -125,67 +124,205 @@ span, div, a {
 .info {
 	margin-bottom: 75px;
 
-	&__row {
+	&__header {
 		display: flex;
 		padding: 10px 70px;
 		margin-bottom: 25px;
-		background-color: #000;
+		background-color: #1b1b1b;
 		color: #fff;
 		position: sticky;
 		top: 0;
 		left: 0;
 		z-index: 9;
 	
-		& > div {
+		& > ul {
 			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		li {
+			margin: 0;
+			list-style: none;
+
+			span {
+				cursor: pointer;
+				border-bottom: 1px dotted #ccc;
+			}
 		}
 	}
 }
 
 .graph {
 	position: relative;
-	border-bottom: 1px solid #000;
 	font-size: 10px;
+	display: none;
+	justify-content: center;
+	padding: 30px 45px 5px;
+	width: 100%;
+	height: 180px;
+	overflow-x: hidden;
+	overflow-x: auto;
+	justify-content: left;
+	-webkit-overflow-scrolling: touch;
+	touch-action: pan-x, pan-left, pan-right;
 
-	&__item {
-		position: absolute;
-		bottom: 0;
-		left: 10px;
+	&:hover {
+		
+	}
+
+	&::-webkit-scrollbar {
+		width: auto;
+		height: 4px;
+	}
+	  
+	&::-webkit-scrollbar-track {
+		background: #ccc;
+	}
+	  
+	&::-webkit-scrollbar-thumb {
+		background-color: #999;
+	}
+
+	body[data-years="show"] & {
 		display: flex;
-		flex-direction: column;
-		width: 25px;
+	}
+}
+
+.graph__list {
+	// width: 100%;
+	height: 100px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.graph__item {
+	position: relative;
+	width: 1px;
+	margin-right: 20px;
+	height: 100%;
+	line-height: 0;
+	text-align: right;
+	background-color: orange;
+
+	&:before {
+		font-size: 9px;
+		content: attr(data-year);
+		position: relative;
+		top: -10px;
+		left: -50%;
+		transform: rotate(45deg) translateX(-50%);
+		width: 20px;
+		height: 10px;
+		display: inline-block;
+		text-align: left;
+	}
+
+	&:after {
+		content: attr(data-count);
+		display: inline-block;
+		line-height: 10px;
+		height: 20px;
+		position: absolute;
+		bottom: -27px;
+		left: -50%;
+		transform: translateX(-50%);
+		width: 20px;
 		text-align: center;
-		line-height: 0;
 
+	}
 
-		&:nth-child(2n) {
-			left: 20px;
-		}
+	&-count {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
 
-		&:after {
-			content: '';
-			width: 1px;
-			height: 8px;
-			display: inline-block;
-			background-color: #010101;
-			position: relative;
-			top: 4px;
-			left: 50%;
-			transform: translateX(-1px);
-		}
+	&-year {
+		text-align: center;
+		display: inline-block;
+		position: relative;
+	}
 
-		.graph__item-count {
-			position: relative;
-			width: 100%;
-			text-align: center;
-			display: inline-block;
-		}
-
-		.graph__item-year {
-			text-align: center;
-			display: inline-block;
-			position: relative;
-			top: 30px;
+	&:hover {
+		.graph__books {
+			display: block;
 		}
 	}
+}
+
+.graph__books {
+	display: none;
+	width: 200px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+	padding: 7px;
+	background-color: #fff;
+	line-height: 18px;
+	text-align: left;
+	position: relative;
+	z-index: 4;
+}
+
+.country {
+	display: flex;
+	flex-wrap: wrap;
+	width: 800px;
+	margin: 50px 70px;
+
+
+	&__item {
+		height: 40px;
+		padding: 5px 0;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		font-size: 12px;
+		display: flex;
+		align-items: center;
+		
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		&:before {
+			content: attr(data-position);
+			position: absolute;
+			left: -30px;
+			display: inline-block;
+			width: 20px;
+			text-align: right;
+		}
+	}
+
+	&__item-name {
+		width: 30%;
+		font-weight: bold;
+	}
+
+	&__item-graph {
+		width: 70%;
+		position: relative;
+		background-color: #d6ecff;
+		color: #222;
+		padding-right: 10px;
+		height: 22px;
+		display: flex;
+		align-items: center;
+		justify-content: end;
+
+		&:after {
+			content: attr(data-position);
+			position: absolute;
+			left: -30px;
+			display: inline-block;
+			width: 20px;
+			text-align: right;
+		}
+	}
+
 }

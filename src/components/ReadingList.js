@@ -2,7 +2,6 @@ import React from 'react';
 import Item from './ReadingItem';
 
 const List = ( props ) => {
-
 	return (
 		<div className="list">
 			{(

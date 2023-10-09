@@ -1,69 +1,76 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
+
+import Years from './Info/Years';
+import Countries from './Info/Countries';
 
 const Info = ( props ) => {
 
-    const items = props.items;
+	const [showYear, setshowYear] = useState(false);
+	const items = props.items;
 
-    const booksCounter = () => {
-        const books = [];
-        for ( let i = 0; i < items.length; i++ ) {
-            books.push( items[i].collection.length );
-        }
+	useEffect(() => {
+		if (showYear) {
+			document.body.dataset.years = "show";
+		} else {
+			document.body.dataset.years = "hide";
+		}
+	}, [showYear]);
 
-        return books.reduce((prev, item) => prev + item, 0);
-    }
 
-    const mostReadable = () => {
-        const collectionSize = items.map((a) => a.collection.length)
-        const highestAmount = Math.max(...collectionSize);
-        const highestShots = items.filter(i => i.collection.length === highestAmount);
+	const booksCounter = () => {
+		const books = [];
+		for ( let i = 0; i < items.length; i++ ) {
+			books.push( items[i].collection.length );
+		}
 
-        return highestShots[0].author;
-    }
+		return books.reduce((prev, item) => prev + item, 0);
+	}
 
-    const byYears = () => {
+	const mostReadable = () => {
+		const collectionSize = items.map((a) => a.collection.length)
+		const maxSize = Math.max(...collectionSize);
+		const maxItem = items.filter(i => i.collection.length === maxSize);
 
-        const collection = items.map((a) => a.collection);
+		return maxItem[0].author;
+	}
 
-        const rangeYears = collection.reduce( (prev, item) => {
-            item.forEach(e => {
-                prev.push( e.year )
-            });
-            return prev;
-        }, []);
+	const yearRange = () => {
+		const collection = items.map((a) => a.collection);
 
-        // console.log( rangeYears );
+		const list = collection.reduce( (prev, item) => {
+			item.forEach(e => {
+				prev.push( e.year )
+			});
+			return prev;
+		}, []);
 
-        return [Math.min(...rangeYears), Math.max(...rangeYears)];
-    }
+		return [Math.min(...list), Math.max(...list)]
+	}
 
-    const graphYears = ( data ) => {
-        var unique = [...new Set(data)];
-        var graph = unique.map(i => [i, data.filter(j => i === j).length])
-
-        console.log( graph );
-
-        return graph;
-    }
+	const showCountries = () => {
+		// console.log( 'click by countries' )
+	}
 
 	return (
 		<div className="info">
-            <div className="info__row">
-                <div>
-                    <div>Авторов: {items.length}</div>
-                    <div>Книг: {booksCounter()}</div>
-                    <div>Самый читаемый: {mostReadable()}</div>
-                </div>
-                <div>
-                    <div>По годам: {byYears()[0]} - {byYears()[1]} </div>
-                </div>
-            </div>
-            <div className="graph">
-                <div className="graph__item">
-                    <span className="graph__item-count">3</span>
-                    <span className="graph__item-year">1857</span>
-                </div>
-            </div>
+			<div className="info__header">
+				<ul>
+					<li>Авторов: {items.length}</li>
+					<li>Книг: {booksCounter()}</li>
+					<li>Самый читаемый: {mostReadable()}</li>
+				</ul>
+				<ul>
+					<li><span onClick={() => setshowYear(!showYear)}>Книги по годам: {yearRange()[0]} - {yearRange()[1]}</span></li>
+					<li><span onClick={showCountries()}>Авторы по странам</span></li>
+				</ul>
+			</div>
+			<div className="info__graph">
+				<Years items={items} />
+			</div>
+			<div className="info__countries">
+				<Countries items={items} />
+			</div>
 		</div>
 	);
 };
