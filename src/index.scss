@@ -43,7 +43,7 @@ span, div, a {
 		left: 0;
 		top: 50%;
 		transform: translateY(-50%);
-		background-image: url(../public/i/flags@2x.png);
+		background-image: url(../build/i/flags@2x.png);
 		background-repeat: no-repeat;
 		background-size: 16px 500px;
 		width: 16px;
@@ -324,7 +324,7 @@ span, div, a {
 		max-width: 100%;
 
 		&:after {
-			
+
 		}
 	}
 }

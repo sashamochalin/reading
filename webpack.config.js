@@ -15,7 +15,7 @@ module.exports = {
 	// },
 	output: {
 		filename: filename('js'),
-		path: path.resolve(__dirname, 'public')
+		path: path.resolve(__dirname, 'build')
 	},
 	devtool: 'inline-source-map',
 	module: {
@@ -34,8 +34,8 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: 'public/index.html',
-			favicon: 'public/favicon.ico'
+			template: 'build/index.html',
+			favicon: 'build/favicon.ico'
 		})
 	],
 	devServer: {
