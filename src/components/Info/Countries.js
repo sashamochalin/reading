@@ -28,13 +28,15 @@ const Countries = (props) => {
                             <div key={i}
                                 data-position={i + 1}
                                 className="country__item">
-                                <div className="country__item-name">
+                                <div className="country__item-title" data-country={ e[0].toLowerCase() }>
                                     {e[0]}
                                 </div>
-                                <div style={{ width: e[1].length * 20 + 'px' }}
-                                     data-count={e[1].length}
-                                     className="country__item-graph">
-                                    {e[1].length}
+                                <div data-count={e[1].length}
+                                     className="country__item-bar">
+                                        <div style={{ width: e[1].length * 10 + 'px' }}
+                                             className="country__item-bar-slug">
+                                            {e[1].length}
+                                        </div>
                                 </div>
                             </div>
                         )

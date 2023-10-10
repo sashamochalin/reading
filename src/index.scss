@@ -272,13 +272,16 @@ span, div, a {
 .country {
 	display: flex;
 	flex-wrap: wrap;
-	width: 800px;
+	width: 680px;
 	margin: 50px 70px;
 
+	&__list {
+		width: 100%;
+	}
 
 	&__item {
 		height: 40px;
-		padding: 5px 0;
+		padding: 5px 0 5px 28px;
 		border-bottom: 1px solid #eee;
 		position: relative;
 		font-size: 12px;
@@ -292,21 +295,25 @@ span, div, a {
 		&:before {
 			content: attr(data-position);
 			position: absolute;
-			left: -30px;
+			left: 0px;
 			display: inline-block;
 			width: 20px;
 			text-align: right;
+			color: #8f8f8f
 		}
 	}
 
-	&__item-name {
+	&__item-title {
 		width: 30%;
 		font-weight: bold;
 	}
 
-	&__item-graph {
+	&__item-bar {
 		width: 70%;
 		position: relative;
+	}
+
+	&__item-bar-slug {
 		background-color: #d6ecff;
 		color: #222;
 		padding-right: 10px;
@@ -314,15 +321,10 @@ span, div, a {
 		display: flex;
 		align-items: center;
 		justify-content: end;
+		max-width: 100%;
 
 		&:after {
-			content: attr(data-position);
-			position: absolute;
-			left: -30px;
-			display: inline-block;
-			width: 20px;
-			text-align: right;
+			
 		}
 	}
-
 }

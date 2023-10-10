@@ -6,8 +6,9 @@ import Countries from './Info/Countries';
 
 const Info = ( props ) => {
 
-	const [showYear, setshowYear] = useState(false);
 	const items = props.items;
+	const [showYear, setshowYear] = useState(false);
+	const [showCountry, setshowCountries] = useState(false);
 
 	useEffect(() => {
 		if (showYear) {
@@ -15,7 +16,12 @@ const Info = ( props ) => {
 		} else {
 			document.body.dataset.years = "hide";
 		}
-	}, [showYear]);
+		if (showCountry) {
+			document.body.dataset.country = "show";
+		} else {
+			document.body.dataset.country = "hide";
+		}
+	}, [showYear], [showCountry]);
 
 
 	const booksCounter = () => {

@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Years = (props) => {
-
 	const items = props.items;
 	const yearList = () => {
 		const collection = items.map((a) => a.collection);

@@ -2,12 +2,15 @@
 	"name": "reading",
 	"version": "1.0.0",
 	"description": "stata",
+	"homepage": "https://github.com/sashamochalin/reading#readme",
 	"main": "index.js",
 	"scripts": {
-		"dev"    : "webpack --mode development",
-		"build"  : "webpack --mode production",
-		"watch"  : "webpack --mode development --watch",
-		"start"  : "webpack serve --mode development --open"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"dev": "webpack --mode development",
+		"build": "webpack --mode production",
+		"watch": "webpack --mode development --watch",
+		"start": "webpack serve --mode development --open"
 	},
 	"repository": {
 		"type": "git",
@@ -27,6 +30,7 @@
 		"@babel/preset-react": "^7.22.5",
 		"babel-loader": "^9.1.2",
 		"css-loader": "^6.8.1",
+		"gh-pages": "^6.0.0",
 		"html-webpack-plugin": "^5.5.3",
 		"sass": "^1.63.6",
 		"sass-loader": "^13.3.2",
@@ -37,6 +41,5 @@
 	},
 	"bugs": {
 		"url": "https://github.com/sashamochalin/reading/issues"
-	},
-	"homepage": "https://github.com/sashamochalin/reading#readme"
+	}
 }
